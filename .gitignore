@@ -1,35 +1,29 @@
 ```
+# Vue.js build artifacts
+dist/
+build/
+*.vue.d.ts
+
 # Dependencies
 node_modules/
 
-# Build artifacts
-dist/
-build/
-*.min.js
-*.min.css
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Environment variables
+# Temp files
+*.tmp
+*.log
+
+# Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Package lock
-package-lock.json
-.yarn-cache/
+# Cache directories
+.cache/
+.nuxt/
+.next/
 ```
