@@ -97,6 +97,9 @@ export const buildings = [
   }
 ]
 
+// Алиас для совместимости
+export const houses = buildings
+
 export const emergencyAnnouncements = [
   {
     id: 1,
