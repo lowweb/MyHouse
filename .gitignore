@@ -5,31 +5,69 @@ node_modules/
 # Build artifacts
 dist/
 build/
-*.min.js
-*.min.css
+target/
 
 # Environment variables
 .env
 .env.local
-*.env.*
+.env.*
+
+# Cache directories
+.cache/
+**/.cache/
 
 # Logs
 *.log
 
-# IDE
-.vscode/
-.idea/
+# Temporary files
+*.tmp
+*.temp
 
-# OS
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Temporary files
-*.tmp
+# IDE specific
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Package lock
-package-lock.json
-.yarn-cache/
+# Python specific (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Node.js specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+jspm_packages/
+*.tsbuildinfo
+.nyc_output
+coverage/
+.nyc_output/
+istanbul.yml
+.jest/
+.scoverage/
 ```
