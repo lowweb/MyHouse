@@ -7,9 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#2563EB',
-        success: '#10B981',
-        warning: '#F59E0B',
+        primary: '#7C3AED',
+        primaryDark: '#5B21B6',
+        primaryLight: '#A78BFA',
+        success: '#059669',
+        warning: '#D97706',
+        accent: '#EC4899',
       },
       fontFamily: {
         sans: ['Inter', 'Roboto', 'sans-serif'],
